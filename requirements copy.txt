@@ -1,0 +1,21 @@
+# PyTorch and related packages
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+torchaudio==0.13.1+cu117
+--find-links https://data.pyg.org/whl/torch-1.13.1+cu117.html
+torch-geometric==2.3.1
+torch-cluster==1.6.0
+torch-scatter==2.1.0
+torch-sparse==0.6.16
+torch-spline-conv==1.2.2
+
+# Music packages
+pretty-midi==0.2.9
+muspy==0.4.0
+pypianoroll==1.0.4
+
+# Various
+prettytable==2.4.0
+tqdm>=4.64.1  # Updated for compatibility
+huggingface-hub>=0.23.2  # Updated for compatibility
